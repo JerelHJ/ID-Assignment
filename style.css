@@ -1,50 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
-:root {
-  --header-height: 3.5rem;
-
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(219, 69%, 56%);
-  --first-color-alt: hsl(219, 69%, 52%);
-  --title-color: hsl(219, 8%, 95%);
-  --text-color: hsl(219, 8%, 75%);
-  --text-color-light: hsl(219, 4%, 55%);
-  --white-color: #fff;
-  --body-color: hsl(219, 4%, 4%);
-  --container-color: hsl(219, 4%, 7%);
-
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Exo', sans-serif;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
-
-  /*========== Font weight ==========*/
-  --font-medium: 500;
-  --font-semi-bold: 600;
-
-  /*========== z index ==========*/
-  --z-tooltip: 10;
-  --z-fixed: 100;
-}
-
-@media screen and (min-width: 968px) {
-  :root {
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
-  }
-}
-
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -98,7 +53,7 @@ img {
 }
 
 .section__title {
-  font-size: var(--h2-font-size);
+  font-size: 1.25rem;
   text-align: center;
   margin-bottom: 2.5rem;
 }
@@ -108,7 +63,7 @@ img {
 }
 
 .shape{
-    background-color: rgba(46, 67, 107, 0.5);
+    background-color: navy;
     filter: blur(112px);
     border-radius: 50%;
 }
@@ -130,11 +85,11 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: var(--z-fixed);
+    z-index: 100;
 }
 
 .nav{
-    height: var(--header-height);
+    height: 3.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,14 +98,14 @@ img {
 
 .nav__logo,
 .nav__toggle{
-    color: var(--title-color);
+    color: white;
     display: inline-flex;
 }
 
 .nav__logo{
     align-items: center;
     column-gap: .25rem;
-    font-weight: var(--font-medium);
+    font-weight: 500;
     transition: .3s;
 }
 
@@ -159,7 +114,7 @@ img {
 
 }
 .nav__logo:hover{
-    color: var(--first-color)
+    color: rgb(46, 46, 250);
 
 }
 
@@ -171,7 +126,7 @@ img {
 @media screen and (max-width: 768px){
     .nav__menu{
         position: fixed;
-        background-color: hsla(0,0%, 100%, .1);
+        background-color: rgb(85, 84, 84);
         top:0;
         right: -100%;
         width: 100%;
@@ -191,19 +146,19 @@ img {
 
 .nav__link{
     text-transform: uppercase;
-    color: var(--title-color);
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-medium);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
     transition: .3s;
 }
 
 .nav__link:hover{
-    color: var(--first-color);
+    color: rgb(46, 46, 250);
 }
 
 .nav__close{
     font-size: 2rem;
-    color: var(--white-color);
+    color: white;
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -218,7 +173,7 @@ img {
 /* Change background header */
 .scroll-header{
     border-radius:  0 0 1rem 1rem;
-    background-color: var(--body-color);
+    background-color: black;
     box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
 }
 
@@ -242,26 +197,26 @@ img {
 }
 
 .home__title{
-    font-size: var(--h1-font-size);
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 .home__subtitle{
-    font-size: var(--h3-font-size);
+    font-size: 1rem;
     margin-bottom: .25rem;
 }
 
 .home__electric{
-    font-size: var(--small-font-size);
+    font-size: .875rem;
     font-weight: 400;
-    color: var(--text-color);
+    color: whitesmoke;
     display: inline-flex;
     align-items: center;
     column-gap: .25rem;
 }
 
 .home__electric i{
-    color: var(--first-color);
+    color: rgb(46, 46, 250);
 }
 
 .home__img{
@@ -280,7 +235,7 @@ img {
 .home__car-name{
     font-size: .625rem;
     font-weight: 400;
-    color: var(--text-color-light);
+    color: rgb(134, 128, 128);
 }
 
 .home__car-data{
@@ -288,13 +243,13 @@ img {
 }
 
 .home__car-number{
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-medium);
+    font-size: 1.25rem;
+    font-weight: 500;
     margin-bottom: .25rem;
 }
 
 .home__car-icon{
-    background-color: var(--container-color);
+    background-color: black;
     border-radius: 50%;
     padding: .376rem;
     display: inline-flex;
@@ -306,7 +261,7 @@ img {
 
 .home__button{
     position: relative;
-    border: 2px solid hsl(158, 89%, 30%);
+    border: 2px solid mediumspringgreen;
     width: 70px;
     height: 70px;
     border-radius: 60%;
@@ -314,19 +269,19 @@ img {
     align-items: center;
     justify-content: center;
     justify-self: center;
-    font-size: var(--small-font-size);
-    color: var(--white-color);
-    font-weight: var(--font-medium);
+    font-size: .813rem;
+    color: white;
+    font-weight: 500;
 }
 
 .home__button::before{
     content: '';
-    border: 2px solid hsl(158, 98%, 43%);
+    border: 2px solid mediumspringgreen;
     width: 90px;
     height: 90px;
     position: absolute;
     border-radius: 50%;
-    box-shadow: 0 0 12px hsl(158, 98%, 43%);
+    box-shadow: 0 0 12px mediumspringgreen;
     transition: .3s;
     animation: button 3s infinite;
 }
@@ -350,10 +305,10 @@ img {
 /* Button animate */
 @keyframes button {
     0%{
-        box-shadow: 0 0 12px hsl(158, 98%, 43%);
+        box-shadow: 0 0 12px mediumspringgreen;
     }
     50%{
-        box-shadow: 0 0 12px hsl(158, 98%, 43%);
+        box-shadow: 0 0 12px mediumspringgreen;
     }
 
 }
@@ -361,16 +316,16 @@ img {
 /*=============== BUTTON ===============*/
 .button{
     display: inline-block;
-    background-color: var(--first-color);
+    background-color: rgb(55, 55, 247);
     color: white;
     padding: 1rem 2rem;
     border-radius: .25rem;
-    font-size: var(--normal-font-size);
+    font-size: .938rem;
     transition: .3s;
 }
 
 .button:hover{
-    background-color: var(--first-color-alt);
+    background-color: rgb(49, 49, 240);
 }
 
 /*=============== ABOUT ===============*/
@@ -392,7 +347,7 @@ img {
     position: absolute;
     right: 0;
     bottom: -2.5rem;
-    background-color: hsla(0, 0%, 100%, .1);
+    background-color: rgb(29, 28, 28);
     backdrop-filter: blur(16px);
     padding: 1rem .75rem;
     text-align: center;
@@ -400,12 +355,12 @@ img {
 }
 
 .about_card-title{
-    font-size: var(--h3-font-size);
+    font-size: 1rem;
     margin-bottom: .5rem;
 }
 
 .about_card-description{
-    font-size: var(--smaller-font-size);
+    font-size: .75rem;
 }
 
 .about_title{
