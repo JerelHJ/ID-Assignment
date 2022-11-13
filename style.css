@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap"); 
 
 /*=============== BASE ===============*/
 * {
@@ -12,15 +12,15 @@ html {
 }
 
 body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--text-color);
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  background-color: hsl(219, 4%, 4%);
+  color:  hsl(216, 2%, 58%);;
 }
 
 h1, h2, h3 {
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
+  color: hsl(216, 2%, 58%);;
+  font-weight: 600;
 }
 
 ul {
@@ -52,7 +52,7 @@ img {
   padding: 4.5rem 0 2rem;
 }
 
-.section__title {
+.section_title {
   font-size: 1.25rem;
   text-align: center;
   margin-bottom: 2.5rem;
@@ -63,17 +63,17 @@ img {
 }
 
 .shape{
-    background-color: navy;
+    background-color: rgba(46, 67, 107, 0.5);
     filter: blur(112px);
     border-radius: 50%;
 }
 
-.shape__big{
+.shape_big{
     width: 400px;
     height: 400px;
 }
 
-.shape__small{
+.shape_small{
     width: 300px;
     height: 300px;
 }
@@ -85,7 +85,7 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index:  100;
 }
 
 .nav{
@@ -96,37 +96,37 @@ img {
 
 }
 
-.nav__logo,
-.nav__toggle{
-    color: white;
+.nav_logo,
+.nav_toggle{
+    color: hsl(219, 8%, 95%);
     display: inline-flex;
 }
 
-.nav__logo{
+.nav_logo{
     align-items: center;
     column-gap: .25rem;
     font-weight: 500;
     transition: .3s;
 }
 
-.nav__logo i{
+.nav_logo i{
     font-size: 1.25rem;
 
 }
-.nav__logo:hover{
-    color: rgb(46, 46, 250);
+.nav_logo:hover{
+    color: hsl(219, 76%, 39%);
 
 }
 
-.nav__toggle{
+.nav_toggle{
     font-size: 1.25rem;
     cursor: pointer;
 }
 
 @media screen and (max-width: 768px){
-    .nav__menu{
+    .nav_menu{
         position: fixed;
-        background-color: rgb(85, 84, 84);
+        background-color: hsla(0,0%, 100%, .1);
         top:0;
         right: -100%;
         width: 100%;
@@ -136,7 +136,7 @@ img {
     }
 }
 
-.nav__list{
+.nav_list{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -144,21 +144,21 @@ img {
     padding-top: 9rem;
 }
 
-.nav__link{
+.nav_link{
     text-transform: uppercase;
-    color: white;
-    font-size: 1.25rem;
+    color: hsl(219, 8%, 95%);
+    font-size:  1.25rem;
     font-weight: 500;
     transition: .3s;
 }
 
-.nav__link:hover{
-    color: rgb(46, 46, 250);
+.nav_link:hover{
+    color: hsl(219, 76%, 39%);
 }
 
-.nav__close{
+.nav_close{
     font-size: 2rem;
-    color: white;
+    color:  #fff;
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -173,7 +173,7 @@ img {
 /* Change background header */
 .scroll-header{
     border-radius:  0 0 1rem 1rem;
-    background-color: black;
+    background-color: hsl(219, 4%, 4%);
     box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
 }
 
@@ -186,45 +186,45 @@ img {
     overflow: hidden;
 }
 
-.home__container{
+.home_container{
     position: relative;
     padding-top: 4rem;
     row-gap: 3rem;
 }
 
-.home__data{
+.home_data{
     text-align: center;
 }
 
-.home__title{
+.home_title{
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.home__subtitle{
+.home_subtitle{
     font-size: 1rem;
     margin-bottom: .25rem;
 }
 
-.home__electric{
-    font-size: .875rem;
+.home_electric{
+    font-size: .813rem;
     font-weight: 400;
-    color: whitesmoke;
+    color: hsl(219, 8%, 95%);
     display: inline-flex;
     align-items: center;
     column-gap: .25rem;
 }
 
-.home__electric i{
-    color: rgb(46, 46, 250);
+.home_electric i{
+    color: hsl(219, 76%, 39%);
 }
 
-.home__img{
+.home_img{
     width: 280px;
     justify-self: center;
 }
 
-.home__car{
+.home_car{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,24 +232,24 @@ img {
     margin-bottom: 2rem;
 }
 
-.home__car-name{
+.home_car-name{
     font-size: .625rem;
     font-weight: 400;
-    color: rgb(134, 128, 128);
+    color:  hsl(219, 4%, 55%);;
 }
 
-.home__car-data{
+.home_car-data{
     text-align: center;
 }
 
-.home__car-number{
-    font-size: 1.25rem;
+.home_car-number{
+    font-size:  1.25rem;
     font-weight: 500;
     margin-bottom: .25rem;
 }
 
-.home__car-icon{
-    background-color: black;
+.home_car-icon{
+    background-color:  hsl(219, 4%, 7%);
     border-radius: 50%;
     padding: .376rem;
     display: inline-flex;
@@ -259,9 +259,9 @@ img {
     margin-bottom: .75rem;
 }
 
-.home__button{
+.home_button{
     position: relative;
-    border: 2px solid mediumspringgreen;
+    border: 2px solid hsl(158, 89%, 30%);
     width: 70px;
     height: 70px;
     border-radius: 60%;
@@ -270,33 +270,33 @@ img {
     justify-content: center;
     justify-self: center;
     font-size: .813rem;
-    color: white;
+    color:  #fff;
     font-weight: 500;
 }
 
-.home__button::before{
+.home_button::before{
     content: '';
-    border: 2px solid mediumspringgreen;
+    border: 2px solid hsl(158, 98%, 43%);
     width: 90px;
     height: 90px;
     position: absolute;
     border-radius: 50%;
-    box-shadow: 0 0 12px mediumspringgreen;
+    box-shadow: 0 0 12px hsl(158, 98%, 43%);
     transition: .3s;
     animation: button 3s infinite;
 }
 
-.home .shape__big,
-.home .shape__small{
+.home .shape_big,
+.home .shape_small{
     position: absolute;
 }
 
-.home .shape__big{
+.home .shape_big{
     left: -9rem;
     top: -4rem;
 }
 
-.home .shape__small{
+.home .shape_small{
     right: -10rem;
     bottom: 3rem;
 }
@@ -305,10 +305,10 @@ img {
 /* Button animate */
 @keyframes button {
     0%{
-        box-shadow: 0 0 12px mediumspringgreen;
+        box-shadow: 0 0 12px hsl(158, 98%, 43%);
     }
     50%{
-        box-shadow: 0 0 12px mediumspringgreen;
+        box-shadow: 0 0 12px hsl(158, 98%, 43%);
     }
 
 }
@@ -316,7 +316,7 @@ img {
 /*=============== BUTTON ===============*/
 .button{
     display: inline-block;
-    background-color: rgb(55, 55, 247);
+    background-color: hsl(219, 76%, 39%);
     color: white;
     padding: 1rem 2rem;
     border-radius: .25rem;
@@ -325,7 +325,7 @@ img {
 }
 
 .button:hover{
-    background-color: rgb(49, 49, 240);
+    background-color:hsl(219, 73%, 42%);
 }
 
 /*=============== ABOUT ===============*/
@@ -347,7 +347,7 @@ img {
     position: absolute;
     right: 0;
     bottom: -2.5rem;
-    background-color: rgb(29, 28, 28);
+    background-color: hsla(0, 0%, 100%, .1);
     backdrop-filter: blur(16px);
     padding: 1rem .75rem;
     text-align: center;
@@ -371,6 +371,7 @@ img {
 .about_description{
     margin-bottom: 2rem;
 }
+
 
 /*=============== POPULAR ===============*/
 
