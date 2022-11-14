@@ -32,20 +32,3 @@ function scrollHeader(){
 
 }
 window.addEventListener('scroll', scrollHeader)
-
-/*=============== POPULAR SWIPER ===============*/
-
-
-/*=============== MIXITUP FILTER FEATURED ===============*/
-
-
-/* Link active featured */ 
-
-
-/*=============== SHOW SCROLL UP ===============*/ 
-
-
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
