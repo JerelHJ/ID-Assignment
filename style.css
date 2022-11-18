@@ -465,6 +465,61 @@ img {
 
 
 /*=============== FEATURES ===============*/
+.features{
+    overflow: hidden;
+    position: relative;
+}
+
+.features_container{
+    padding-top: 2rem;
+    grid-template-columns: 285px;
+    justify-content: center;
+}
+
+.features_group{
+    display: grid;
+    position: relative;
+    z-index: 10;
+}
+
+.features_img{
+    width: 150px;
+    justify-self: center;
+}
+
+.features_card{
+    width: 112px;
+    background-color: hsla(0, 0%, 100%, .1);
+    backdrop-filter: blur(16px);
+    border-radius: 1.25rem;
+    padding: .75rem 2rem;
+    text-align: center;
+    color: hsl(219, 8%, 95%);
+    position: absolute;
+}
+
+.features_card-1{
+    top: 4rem;
+    left: 1.5rem;
+}
+.features_card-2{
+    top: 8rem;
+    right: 1rem;
+}
+
+.features_card-3{
+    left: 1.5rem;
+    bottom: 2rem;
+}
+
+.features_card-title{
+    font-size: 1rem;
+    margin-bottom: .25rem;
+}
+
+.features_card-description{
+    font-size: .75rem;
+}
 
 
 /*=============== FEATURED ===============*/
