@@ -226,10 +226,14 @@ img {
     color: hsl(219, 76%, 39%);
 }
 
-.home_img{
+
+.home-pic{
     width: 100%;
+    height: 100%;
     justify-self: center;
 }
+
+
 
 .home_car{
     display: flex;
@@ -263,7 +267,7 @@ img {
     justify-content: center;
     align-items: center;
     font-size: .875rem;
-    margin-bottom: .75rem;
+    margin-bottom: .25rem;
 }
 
 .home_button{
@@ -324,6 +328,7 @@ img {
 .button{
     display: inline-block;
     background-color: hsl(219, 76%, 39%);
+    
     color: white;
     padding: 1rem 2rem;
     border-radius: .25rem;
@@ -393,6 +398,7 @@ img {
     border-radius: 1rem;
     margin-bottom: 3.5rem;
     overflow: hidden;
+   
 }
 
 .popular_card .shape_smaller{
@@ -452,12 +458,13 @@ img {
 .popular_button{
     border: none;
     outline: none;
-    padding: .75rem 1rem;
+    padding: 0rem 1.5rem;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    border-radius: 1rem 0 1rem 0;
+    right:0;
+    left: 0;
+    border-radius: 0 1rem  ;
     cursor: pointer;
+    background-color: hsl(219, 73%, 42%);
 }
 
 .popular_button i{
@@ -624,11 +631,11 @@ img {
 .featured_button {
     border: none;
     outline: none;
-    padding: .75rem 1rem;
+    padding: 0rem 1.5rem;
     position: absolute;
-    right: 0;
+    right:0;
     left: 0;
-    border-radius: 1rem 0 ;
+    border-radius: 0 1rem  ;
     cursor: pointer;
     background-color: hsl(219, 73%, 42%);
 }
@@ -678,13 +685,14 @@ img {
     color: hsl(219, 8%, 95%);
     font-size: 1.25rem;
     font-weight: 600;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.5rem;
     transition: .3s;
 }
 
 .footer_logo i{
     font-size: 1.5rem;
     font-weight: 500;
+    
 }
 
 .footer_logo:hover{
@@ -715,8 +723,7 @@ img {
 
 .footer_social{
     display: flex;
-    column-gap: 1.5rem;
-   
+    margin-left: 4.3rem;
 }
 
 .footer_social-link{
@@ -749,7 +756,9 @@ img {
         
         text-align: center;
     }
-
+    .footer_social{
+        margin-left: 3.4rem;
+    }
 }
 
 /* For medium devices */
@@ -768,10 +777,12 @@ img {
         grid-template-columns: 1fr 1fr ;
         ;
     }
-
+    .footer_social{
+        margin-left: 2.4rem;
+    }
 }
 
-@media screen and (min-width: 767px){
+@media screen and (min-width: 800px){
     .section{
         padding: 7rem 0 2rem;
     }
@@ -803,12 +814,15 @@ img {
         text-align: center;  
         justify-content: center;
     } 
+    .footer_social{
+        margin-left: 3.4rem;
+    }
 
 }
 
 
 /* For large devices */
-@media screen and (min-width: 1040px){
+@media screen and (min-width: 1080px){
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -829,7 +843,7 @@ img {
         padding-top: 2rem;
     }
 
-    .home_img{
+    .home-pic{
         width: 100%;
     }
     .home_car{
@@ -837,7 +851,8 @@ img {
     }
     .home_car-icon{
         font-size: 1.25rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.2rem;
+        justify-content: center;
     }
 
     .about_container{
@@ -931,6 +946,9 @@ img {
         display: grid;
         grid-template-columns:  1fr 1fr 1fr 1fr;
         
+    }
+    .footer_social{
+        margin-left: 3rem;
     }
 }
 
