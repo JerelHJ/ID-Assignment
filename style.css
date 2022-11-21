@@ -15,11 +15,12 @@ body {
   font-family: 'Exo', sans-serif;
   font-size: 1rem;
   background-color: hsl(219, 4%, 4%);
-  color:  hsl(216, 2%, 58%);;
+  color:  hsl(216, 2%, 58%);
+  
 }
 
 h1, h2, h3 {
-  color: hsl(216, 2%, 58%);;
+  color: hsl(219, 8%, 95%);
   font-weight: 600;
 }
 
@@ -78,13 +79,11 @@ img {
     height: 300px;
 }
 
-
 .shape_smaller{
     width: 180px;
     height: 180px;
     filter: blur(64px);
 }
-
 /*=============== HEADER & NAV ===============*/
 .header{
     width: 100%;
@@ -113,15 +112,12 @@ img {
     align-items: center;
     column-gap: .25rem;
     font-weight: 500;
-    transition: .3s;   
+    transition: .3s;
+    
 }
 
 .nav_logo i{
     font-size: 2.5rem;
-}
-
-.nav_logo i{
-    font-size: 1.25rem;
 
 }
 .nav_logo:hover{
@@ -232,7 +228,6 @@ img {
 
 .home_img{
     width: 100%;
-    width: 280px;
     justify-self: center;
 }
 
@@ -473,6 +468,8 @@ img {
     transform: translateY(-.25rem);
 }
 
+
+
 /*=============== FEATURES ===============*/
 .features{
     overflow: hidden;
@@ -529,6 +526,9 @@ img {
 .features_card-description{
     font-size: .75rem;
 }
+
+
+
 /*=============== FEATURED ===============*/
 .featured_container{
     padding-top: 1rem;
@@ -933,3 +933,4 @@ img {
         
     }
 }
+

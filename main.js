@@ -16,7 +16,7 @@ if(navClose){
 }
 
 /*=============== REMOVE MENU MOBILE ===============*/
-const navLink = document.querySelectorAll('.nav__link')
+const navLink = document.querySelectorAll('.nav_link')
 
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
