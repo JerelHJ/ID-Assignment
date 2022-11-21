@@ -78,6 +78,13 @@ img {
     height: 300px;
 }
 
+
+.shape_smaller{
+    width: 180px;
+    height: 180px;
+    filter: blur(64px);
+}
+
 /*=============== HEADER & NAV ===============*/
 .header{
     width: 100%;
@@ -106,7 +113,11 @@ img {
     align-items: center;
     column-gap: .25rem;
     font-weight: 500;
-    transition: .3s;
+    transition: .3s;   
+}
+
+.nav_logo i{
+    font-size: 2.5rem;
 }
 
 .nav_logo i{
@@ -220,6 +231,7 @@ img {
 }
 
 .home_img{
+    width: 100%;
     width: 280px;
     justify-self: center;
 }
@@ -461,9 +473,6 @@ img {
     transform: translateY(-.25rem);
 }
 
-
-
-
 /*=============== FEATURES ===============*/
 .features{
     overflow: hidden;
@@ -520,8 +529,6 @@ img {
 .features_card-description{
     font-size: .75rem;
 }
-
-
 /*=============== FEATURED ===============*/
 .featured_container{
     padding-top: 1rem;
@@ -634,10 +641,12 @@ img {
     transform: translateX(-.25rem);
 }
 
+
 /*=============== FOOTER ===============*/
 .footer{
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .footer .shape_big,
@@ -694,7 +703,7 @@ img {
 }
 
 .footer_link,
-footer_social-link{
+.footer_social-link{
     color: hsl(219, 8%, 75%);
     transition: .3s;
 }
@@ -707,12 +716,12 @@ footer_social-link{
 .footer_social{
     display: flex;
     column-gap: 1.5rem;
+   
 }
 
 .footer_social-link{
-    font-size: 1,25rem;
+    font-size: 1.25rem;
 }
-
 .footer_copy{
     display: block;
     margin-top: 4.5rem;
@@ -721,11 +730,9 @@ footer_social-link{
     color: hsl(219, 4%, 55%);
 }
 
-
-
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 400px){
     .container{
         margin-left: 1rem;
         margin-right: 1rem;
@@ -738,7 +745,10 @@ footer_social-link{
     .about_card{
         width: 150px;
     }
-
+    .footer_container{
+        
+        text-align: center;
+    }
 
 }
 
@@ -750,12 +760,15 @@ footer_social-link{
     }
     .featured_content{
         grid-template-columns: repeat(2,228px);
-    }
-    .footer__container{
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
        
     }
+    .footer_container{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        ;
+    }
+
 }
 
 @media screen and (min-width: 767px){
@@ -920,4 +933,3 @@ footer_social-link{
         
     }
 }
-
