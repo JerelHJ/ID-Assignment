@@ -815,6 +815,7 @@ img {
     width: 40%;
     padding: 40px;
     background: #fff;
+    border-radius: 5px;
 }
 
 .contactForm h2{
@@ -933,6 +934,18 @@ img {
     .footer_social{
         margin-left: 2.4rem;
     }
+    .contact
+    {
+        padding: 50px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .container1 .contactForm{
+        margin-bottom: 40px;
+    }
+   
+
 
 }
 
@@ -971,7 +984,7 @@ img {
     .footer_social{
         margin-left: 3.4rem;
     }
-
+    
 }
 
 
