@@ -16,27 +16,27 @@ Electricar provides a wide range of options for you to choose from when you are 
 - Home page (index.html)
 
     - A video of the newest release car on the homepage attracts more viewers as it makes the page more visually appealing for the audience.
-    - **All contents for this webpage are responsive and it caters to 3 different size device.
+    - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 - About section
 
     - The buttons in this section has a hover animations to make it interactive
     - When the webpage is resized to fit a smaller media screen, the contents are arranged in columns.
-    - **All contents for this webpage are responsive and it caters to 3 different size device.
+    - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 - Popular section
     
     - The images of the cars have hover animations, which will move upwards when the cursor hover over. This will make it more interative.
     - A border is created to illuminate the image and the details.
     - The webpage is resized to fit a smaller media screen, the contents are arranged in columns
-    - **All contents for this webpage are responsive and it caters to 3 different size device.
+    - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 - Featured section
 
     - The images of the cars have hover animations, which will move upwards when the cursor hover over. This will make it more interative.
     - The buttons color will change when the cursor hover over.
     - All contents inside this section are center aligned to better fit the webpage
-    - **All contents for this webpage are responsive and it caters to 3 different size device.
+    - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 - Navigation Bar
 
@@ -44,15 +44,12 @@ Electricar provides a wide range of options for you to choose from when you are 
     - The hamburger icon is interactive, when clicked on it, it will have drop-down functions, and the background will be blurred.
     - The navigation bar is also interactive. When the user clicks on the words, it will direct to the correct section.
     - Notice that when the page is scrolled, the navigation bar background turns from transparent to solid color prevent text from overlapping
-    - **All contents for this webpage are responsive and it caters to 3 different size device.
+    - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 - Footer
 
     -Applied animations on Footer whereby when the cursor is hovered over, the color will change.
-    - **All contents for this webpage are responsive and it caters to 3 different size device.
-
-
-
+    - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 ## Colors 
 - Homepage (index.html)
