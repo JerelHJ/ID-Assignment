@@ -16,12 +16,14 @@ Electricar provides a wide range of options for you to choose from when you are 
 - Home page (index.html)
 
     - A video of the newest release car on the homepage attracts more viewers as it makes the page more visually appealing for the audience.
+    - Scroll reveal downwards and upwards animation
     - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 - About section
 
     - The buttons in this section has a hover animations to make it interactive
     - When the webpage is resized to fit a smaller media screen, the contents are arranged in columns.
+    - Scroll reveal left and right animation 
     - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 - Popular section
@@ -29,6 +31,7 @@ Electricar provides a wide range of options for you to choose from when you are 
     - The images of the cars have hover animations, which will move upwards when the cursor hover over. This will make it more interative.
     - A border is created to illuminate the image and the details.
     - The webpage is resized to fit a smaller media screen, the contents are arranged in columns
+    - Scroll reveal downwards animation
     - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 - Featured section
@@ -36,6 +39,7 @@ Electricar provides a wide range of options for you to choose from when you are 
     - The images of the cars have hover animations, which will move upwards when the cursor hover over. This will make it more interative.
     - The buttons color will change when the cursor hover over.
     - All contents inside this section are center aligned to better fit the webpage
+    - Scroll reveal downwards animation
     - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 - Navigation Bar
@@ -48,8 +52,14 @@ Electricar provides a wide range of options for you to choose from when you are 
 
 - Footer
 
-    -Applied animations on Footer whereby when the cursor is hovered over, the color will change.
+    - Applied animations on Footer whereby when the cursor is hovered over, the color will change.
+    - Scroll reveal downwards animation
     - **All contents for this webpage are responsive and it caters to 3 different size device.**
+
+- Contact Us Page(Contact.html)
+    - The elevating animation when click on the text box.
+    - Could not send the form when the text box is not filled up
+
 
 ## Colors 
 - Homepage (index.html)
@@ -111,3 +121,6 @@ Electricar provides a wide range of options for you to choose from when you are 
 4. main.js (Javascript)
 5. Wireframe (XD)
 6. README.md (Markdown documnetation)
+7. IMG 
+8. Icon
+9. Assets
