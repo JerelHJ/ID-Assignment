@@ -1181,7 +1181,29 @@ img {
         gap: 4rem;
     }
 
-    .
+    .offer_container{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5rem;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .offer_data,
+    .offer_title{
+        text-align: initial;
+    }
+
+    .offer_data{
+        margin-bottom: 0;
+    }
+
+    .offer_description{
+        padding-right: 6rem;
+    }
+
+    .offer_img{
+        width: 450px;
+    }
 
     .footer_container{
         display: grid;
