@@ -647,6 +647,49 @@ img {
 .featured_card:hover .featured_img{
     transform: translateX(-.25rem);
 }
+/*=============== OFFER ===============*/
+.offer{
+    position: relative;
+}
+
+.offer_container{
+    grid-template-rows: max-content 224px;
+}
+
+.offer_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.offer_data,
+.offer_img{
+    position: relative;
+}
+
+.offer_data{
+    text-align: center;
+}
+
+.offer_title{
+    margin-bottom: 2rem;
+}
+
+.offer_description{
+    margin-bottom: 3rem;
+}
+
+.offer_img{
+    position: absolute;
+    max-width: initial;
+    width: 400px;
+    bottom: 2rem;
+    right: -5.5rem;
+}
 
 
 /*=============== FOOTER ===============*/
@@ -759,6 +802,7 @@ img {
     font-size: 36px;
     font-weight: 500;
     color: #fff;
+    margin-top: 50px
     
 }
 .contact .contact_description{
@@ -784,7 +828,7 @@ img {
 
 .contactContain .cInfo .cBox{
     position: relative;
-    padding: 20px 0;
+    padding: 30px 60px;
     display: flex;
 }
 
@@ -874,6 +918,9 @@ img {
     font-size: 18px;
 }
 
+
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 400px){
@@ -889,6 +936,15 @@ img {
     .about_card{
         width: 150px;
     }
+
+    .offer_container{
+        grid-template-rows: max-content 180px;
+    }
+
+    .offer_img{
+        width: 340px;
+    }
+
     .footer_container{
         
         display: grid;
@@ -927,6 +983,22 @@ img {
         grid-template-columns: repeat(2,228px);
        
     }
+    
+    .offer_container{
+        grid-template-rows: initial;
+        grid-template-columns: .5fr;
+        justify-content: center;
+    }
+    .offer_img{
+        position: relative;
+        bottom: initial;
+        right: initial;
+    }
+
+    .offer_data{
+        margin-bottom: 4rem;
+    }
+
     .footer_container{
         
         display: grid;
@@ -983,9 +1055,7 @@ img {
         text-align: center;  
         justify-content: center;
     } 
-    .footer_social{
-        margin-left: 3.4rem;
-    }
+    
     
 }
 
@@ -1110,6 +1180,8 @@ img {
         grid-template-columns: repeat(4, 248px);
         gap: 4rem;
     }
+
+    .
 
     .footer_container{
         display: grid;
