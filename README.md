@@ -4,7 +4,7 @@ Electricar is a car dealership website established by Jerel Sim. <br />
 Electricar provides a wide range of options for you to choose from when you are looking for your next car.
 
 #### Notes ####
-_Electricar is a mock business idea and is __NOT__ a licensed business
+Electricar is a mock business idea and is __NOT__ a licensed business
 
 ## Website Pages
 - Home page (index.html)
