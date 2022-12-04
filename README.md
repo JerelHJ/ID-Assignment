@@ -26,14 +26,14 @@ Electricar is a mock business idea and is __NOT__ a licensed business. This idea
 
     - The buttons in this section has a hover animations to make it interactive
     - When the webpage is resized to fit a smaller media screen, the contents are arranged in columns.
-    - **All contents for this webpage are responsive and it caters to 3 different size device.**
+    
 
 - Popular section
     
     - Hover animations for the car images
     - A border is created to illuminate the image and the details.
     - The webpage is resized to fit a smaller media screen, the contents are arranged in 4 x 1 layout
-    - **All contents for this webpage are responsive and it caters to 3 different size device.**
+    
 
 - Featured section
 
@@ -41,7 +41,7 @@ Electricar is a mock business idea and is __NOT__ a licensed business. This idea
     - The buttons color will change when the cursor hover over.
     - All contents inside this section are center aligned to better fit the webpage
     - The contents are arranged in 4 x 1 layout in mobile view
-    - **All contents for this webpage are responsive and it caters to 3 different size device.**
+    
 
 - Navigation Bar
 
@@ -49,17 +49,17 @@ Electricar is a mock business idea and is __NOT__ a licensed business. This idea
     - The hamburger icon is interactive, when clicked on it, it will have drop-down functions, and the background will be blurred.
     - The navigation bar is also interactive. When the user clicks on the words, it will direct to the correct section.
     - Notice that when the page is scrolled, the navigation bar background turns from transparent to solid color prevent text from overlapping
-    - **All contents for this webpage are responsive and it caters to 3 different size device.**
+    
 
 - Footer
 
     - Applied animations on Footer whereby when the cursor is hovered over, the color will change.
-    - **All contents for this webpage are responsive and it caters to 3 different size device.**
+    
 
 - Contact Us Page(Contact.html)
     - The elevating animation when click on the text box.
     - Could not send the form when the text box is not filled up
-
+    - **All contents for this webpage are responsive and it caters to 3 different size device.**
 
 ## Features ##
 - Animated hamburger menu in navigation bar

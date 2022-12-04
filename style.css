@@ -11,6 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Body font/font size/font colour/background color */
 body {
   font-family: "Exo", sans-serif;
   font-size: 1rem;
@@ -18,6 +19,7 @@ body {
   color: hsl(216, 2%, 58%);
 }
 
+/* h1/h2/h3 font color and size */
 h1,
 h2,
 h3 {
@@ -33,6 +35,7 @@ a {
   text-decoration: none;
 }
 
+/* width of image */
 img {
   max-width: 100%;
   height: auto;
@@ -86,6 +89,7 @@ img {
   filter: blur(64px);
 }
 /*=============== HEADER & NAV ===============*/
+
 .header {
   width: 100%;
   background-color: transparent;
@@ -95,6 +99,7 @@ img {
   z-index: 100;
 }
 
+/* Position of Nav bar */
 .nav {
   height: 3.5rem;
   display: flex;
@@ -102,12 +107,14 @@ img {
   align-items: center;
 }
 
+
 .nav_logo,
 .nav_toggle {
   color: hsl(219, 8%, 95%);
   display: inline-flex;
 }
 
+/* logo position */
 .nav_logo {
   align-items: center;
   column-gap: 0.25rem;
@@ -118,15 +125,18 @@ img {
 .nav_logo i {
   font-size: 2.5rem;
 }
+/* logo hover color */
 .nav_logo:hover {
   color: hsl(219, 76%, 39%);
 }
 
+/* Hamburger */
 .nav_toggle {
   font-size: 1.25rem;
   cursor: pointer;
 }
 
+/* Media when nav bar words are replaced by hamburger */
 @media screen and (max-width: 768px) {
   .nav_menu {
     position: fixed;
@@ -194,10 +204,12 @@ img {
   row-gap: 3rem;
 }
 
+/* Center align for home data */
 .home_data {
   text-align: center;
 }
 
+/* Font size/ Position */
 .home_title {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -221,12 +233,14 @@ img {
   color: hsl(219, 76%, 39%);
 }
 
+/* Video in the center/ max width and height */
 .home-pic {
   width: 100%;
   height: 100%;
   justify-self: center;
 }
 
+/* Details of the car/ position of the contents */
 .home_car {
   display: flex;
   justify-content: center;
@@ -250,6 +264,7 @@ img {
   font-weight: 500;
   margin-bottom: 0.25rem;
 }
+
 
 .home_car-icon {
   background-color: hsl(219, 4%, 7%);
@@ -277,6 +292,7 @@ img {
   font-weight: 500;
 }
 
+
 .home_button::before {
   content: "";
   border: 2px solid hsl(158, 98%, 43%);
@@ -289,6 +305,7 @@ img {
   animation: button 3s infinite;
 }
 
+/* Illumination on the page */
 .home .shape_big,
 .home .shape_small {
   position: absolute;
@@ -344,6 +361,7 @@ img {
   border-radius: 0.5rem;
 }
 
+/* Card to store contents/ position of the card */
 .about_card {
   width: 180px;
   position: absolute;
@@ -379,6 +397,7 @@ img {
   padding: 1rem;
 }
 
+/* Card to store contents/ position of the card */
 .popular_card {
   position: relative;
   width: 238px;
@@ -389,12 +408,14 @@ img {
   overflow: hidden;
 }
 
+/* Illumination on the card */
 .popular_card .shape_smaller {
   position: absolute;
   top: -2.5rem;
   left: -2.5rem;
 }
 
+/* Position of the contents */
 .popular_title,
 .popular_subtitle,
 .popular_img {
@@ -441,6 +462,7 @@ img {
   font-size: 1rem;
 }
 
+/* cart button */
 .popular_button {
   border: none;
   outline: none;
@@ -457,6 +479,7 @@ img {
   font-size: 1.25rem;
 }
 
+/* Image hover animation */
 .popular_card:hover .popular_img {
   transform: translateY(-0.25rem);
 }
@@ -484,6 +507,7 @@ img {
   justify-self: center;
 }
 
+/* Card to store contents/ position of the card/ text color*/
 .features_card {
   width: 112px;
   background-color: hsla(0, 0%, 100%, 0.1);
@@ -495,15 +519,17 @@ img {
   position: absolute;
 }
 
+/* Position of card 1*/
 .features_card-1 {
   top: 4rem;
   left: 1.5rem;
 }
+/* Position of card 2*/
 .features_card-2 {
   top: 8rem;
   right: 1rem;
 }
-
+/* Position of card 3*/
 .features_card-3 {
   left: 1.5rem;
   bottom: 2rem;
@@ -513,7 +539,7 @@ img {
   font-size: 1rem;
   margin-bottom: 0.25rem;
 }
-
+/* font size of words in card*/
 .features_card-description {
   font-size: 0.75rem;
 }
@@ -531,6 +557,7 @@ img {
   margin-bottom: 3.5rem;
 }
 
+/* Card to store contents/ position of the card*/
 .featured_item {
   width: 48px;
   height: 48px;
@@ -555,6 +582,7 @@ img {
   transition: 0.3s;
 }
 
+/* color will change from grey to blue*/
 .featured_item:hover {
   background-color: hsl(219, 69%, 56%);
 }
@@ -569,7 +597,7 @@ img {
   row-gap: 2.5rem;
   justify-content: center;
 }
-
+/* Card to store contents/ position of the card*/
 .featured_card {
   position: relative;
   background-color: hsl(219, 4%, 7%);
@@ -609,6 +637,7 @@ img {
   font-size: 1rem;
 }
 
+/* Cart button*/
 .featured_button {
   border: none;
   outline: none;
@@ -625,6 +654,7 @@ img {
   font-size: 1.25rem;
 }
 
+/* Image animation */
 .featured_card:hover .featured_img {
   transform: translateX(-0.25rem);
 }
@@ -664,6 +694,7 @@ img {
   margin-bottom: 3rem;
 }
 
+/* Img Size overlapping the background IMG*/
 .offer_img {
   position: absolute;
   max-width: initial;
@@ -769,18 +800,20 @@ img {
   align-items: center;
   flex-direction: column;
 }
-
+/* Content center align*/
 .contact .content {
   max-width: 800px;
   text-align: center;
 }
 
+/* Header font size/ color/ position*/
 .contact .contactUs {
   font-size: 36px;
   font-weight: 500;
   color: #fff;
   margin-top: 50px;
 }
+/* Description font size/ color*/
 .contact .contact_description {
   font-weight: 300;
   color: #fff;
@@ -829,6 +862,7 @@ img {
   color: #00bcd4;
 }
 
+/* Form Box*/
 .contactForm {
   width: 40%;
   padding: 40px;
@@ -848,6 +882,7 @@ img {
   margin-top: 10px;
 }
 
+/* inputbox position */
 .contactForm .inputBox input,
 .contactForm .inputBox textarea {
   width: 100%;
@@ -871,6 +906,7 @@ img {
   color: #666;
 }
 
+/* Elevating animation when click on input box*/
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
